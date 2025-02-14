@@ -27,24 +27,19 @@
     <meta property="twitter:title" content="Strona główna">
     <meta property="twitter:url" content="https://spacequest.pl">
     <!-- Twitter end -->
-     
-    <!-- Matomo -->
-    <script>
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//stats.osbase.pl/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '8']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar sticky top-0 z-10 bg-base-100">
+    {% if page.title == "Home" %}
+        <nav class="navbar fixed top-0 left-0 w-full z-10">
+    {% else %}
+        <nav class="navbar sticky top-0 z-10 bg-base-100">
+    {% endif %}
         <div class="flex-1">
             <a href="/" class="flex items-center gap-2 btn btn-ghost" role="button">
               <img src="/assets/favicon.svg" class="w-10 h-10">

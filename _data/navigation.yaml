@@ -6,6 +6,6 @@ main:
   - title: News
     url: /news
   - title: Community
-    url: "#community"
+    url: "/community"
   - title: Download
     url: /download
