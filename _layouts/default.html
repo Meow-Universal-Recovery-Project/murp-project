@@ -11,23 +11,29 @@
     <link href="/custom.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="minecraft,surival,serwer,mc,krainamc,listamc,serwery">
-    <meta name="description" content="Serwer Minecraft Survival 1.21.4+ - Dołącz już teraz!">
+    <meta name="keywords" content="android,recovery,custom,rom,twrp,orangefox,romming,xda,developers">
+    <meta name="description" content="{{site.description}}">
 
     <!-- Open Graph -->
-    <meta property="og:site_name" content="SpaceQuest.pl">
+    <meta property="og:site_name" content="{{site.title}}">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Serwer Minecraft Survival 1.21.4+ - Dołącz już teraz!">
-    <meta property="og:title" content="Strona główna">
+    <meta property="og:description" content="{{site.description}}">
+    <meta property="og:title" content="{{ page.title | default: site.title }}{% if page.title %} - {{ site.title }}{% endif %}">
     <meta property="og:url" content="https://spacequest.pl">
     <!-- OG end -->
 
     <!-- Twitter -->
     <meta property="twitter:description" content="Serwer Minecraft Survival 1.21.4+ - Dołącz już teraz!">
-    <meta property="twitter:title" content="Strona główna">
+    <meta property="twitter:title" content="{{ page.title | default: site.title }}{% if page.title %} - {{ site.title }}{% endif %}">
     <meta property="twitter:url" content="https://spacequest.pl">
     <!-- Twitter end -->
     
+    <link rel="icon" href="/assets/favicon.svg">
+
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
+    <link rel="icon" type="image/png" href="/assets/favicon.svg">
+    <link rel="apple-touch-icon" href="/assets/favicon.svg">
+
     <style>
         html {
             scroll-behavior: smooth;
