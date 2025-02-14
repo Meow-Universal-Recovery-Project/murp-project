@@ -5,7 +5,7 @@
 layout: default
 title: Home
 ---
-<div class="hero hero min-h-screen text-neutral-content" style="background-image: url(/assets/karmel.webp);">
+<div class="hero hero min-h-screen text-neutral-content" style="background-color:black">
     <div class="hero-overlay bg-orange-500 bg-opacity-40"></div>
     <div class="hero-content text-center">
     <div class="max-w-md">
