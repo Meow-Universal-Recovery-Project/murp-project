@@ -1,0 +1,11 @@
+main:
+  - title: Home
+    url: /
+  - title: Team
+    url: /team   
+  - title: News
+    url: /news
+  - title: Community
+    url: "#community"
+  - title: Download
+    url: /download
