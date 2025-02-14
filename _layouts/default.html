@@ -35,6 +35,10 @@
     <link rel="apple-touch-icon" href="/assets/favicon.svg">
 
     <style>
+        :root {
+            --b1:  #00ff00 !important;
+        }
+
         html {
             scroll-behavior: smooth;
         }
@@ -56,6 +60,7 @@
             {% for item in site.data.navigation.main %}
                 <li><a href="{{item.url}}">{{item.title}}</a></li>
             {% endfor %}
+            <li><a href="https://github.com/{{site.github_username}}" target="_blank"><i class="bi bi-github"></i></a></li>
           </ul>
         </div>
     </nav>
